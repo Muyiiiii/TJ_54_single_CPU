@@ -1,0 +1,345 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu May 11 13:41:55 2023
+# Process ID: 18140
+# Current directory: D:/2 VIVADO/1 Comuter composition/CPU/test/CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18756 D:\2 VIVADO\1 Comuter composition\CPU\test\CPU\CPU.xpr
+# Log file: D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/vivado.log
+# Journal file: D:/2 VIVADO/1 Comuter composition/CPU/test/CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:06 . Memory (MB): peak = 843.145 ; gain = 181.867
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 11 13:43:17 2023...
+e_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/dist_mem_gen_0.mif'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/mips_31_mars_simulate.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_1_addi.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_1_addiu.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_1_lui.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_add.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_addu.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_and.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_andi.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_lwsw.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_lwsw2.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_nor.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_or.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_ori.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_sll.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_sllv.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_slt.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_slti.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_sltiu.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_sltu.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_sra.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_srav.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_srl.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_srlv.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_sub.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_subu.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_xor.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_2_xori.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_3_beq.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_3_bne.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_4_j.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_4_jal.coe'
+INFO: [USF-XSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/_4_jr.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xpm_cdc_single
+INFO: [VRFC 10-311] analyzing module xpm_cdc_gray
+INFO: [VRFC 10-311] analyzing module xpm_cdc_handshake
+INFO: [VRFC 10-311] analyzing module xpm_cdc_pulse
+INFO: [VRFC 10-311] analyzing module xpm_cdc_array_single
+INFO: [VRFC 10-311] analyzing module xpm_cdc_sync_rst
+INFO: [VRFC 10-311] analyzing module xpm_cdc_async_rst
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0_10
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/new/MUX4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/new/MUX3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/new/MUX2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/new/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/new/EXT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXT
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/new/Connect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Connect
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/new/ADD1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/new/DMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/new/IMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/new/clk_change.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_change
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/new/seg7x16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seg7x16
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sim_1/new/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl -m64 --relax -prj top_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_VCOMP.vhd" into library xpm
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 917.168 ; gain = 0.641
+INFO: [USF-XSim-69] 'compile' step finished in '8' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto a4272b02fbb94013980e4cdd832b5fd9 --debug typical --relax --mt 2 -L xil_defaultlib -L xpm -L dist_mem_gen_v8_0_10 -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 11 for port addr [D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:45]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_change
+Compiling module dist_mem_gen_v8_0_10.dist_mem_gen_v8_0_10(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module xil_defaultlib.IMEM
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.ALU_default
+Compiling module xil_defaultlib.EXT
+Compiling module xil_defaultlib.Connect
+Compiling module xil_defaultlib.ADD1
+Compiling module xil_defaultlib.ADD2
+Compiling module xil_defaultlib.MUX1
+Compiling module xil_defaultlib.MUX2
+Compiling module xil_defaultlib.MUX3
+Compiling module xil_defaultlib.MUX4
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.DMEM
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.seg7x16
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source D:/2 -notrace
+couldn't read file "D:/2": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Thu May 11 13:42:44 2023...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 917.168 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:21 . Memory (MB): peak = 917.168 ; gain = 0.641
+set_property target_simulator ModelSim [current_project]
+launch_simulation -install_path C:/modeltech_pe_10.4c/win32pe -mode post-synthesis -type timing
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-50] Using simulator executables from 'C:/modeltech_pe_10.4c/win32pe/vsim.exe'
+INFO: [USF-ModelSim-30] Simulation object is 'sim_1'...
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Project 1-454] Reading design checkpoint 'd:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.dcp' for cell 'sc/IMEM_inst/IMEM_IP_inst'
+INFO: [Netlist 29-17] Analyzing 117 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/constrs_1/new/cpu_xdc.xdc]
+Finished Parsing XDC File [D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/constrs_1/new/cpu_xdc.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'd:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.dcp'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  RAM32X1S => RAM32X1S (RAMS32): 32 instances
+
+open_run: Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 1352.793 ; gain = 359.590
+INFO: [USF-ModelSim-29] Writing simulation netlist file for design 'synth_1'...
+INFO: [USF-ModelSim-101] write_verilog -mode timesim -nolib -sdf_anno true -force -file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/top_tb_time_synth.v"
+write_verilog: Time (s): cpu = 00:00:22 ; elapsed = 00:00:11 . Memory (MB): peak = 1358.684 ; gain = 5.891
+INFO: [USF-ModelSim-30] Writing SDF file...
+INFO: [USF-ModelSim-102] write_sdf -mode timesim -process_corner slow -force -file "D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/top_tb_time_synth.sdf"
+write_sdf: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1690.590 ; gain = 331.906
+INFO: [USF-ModelSim-34] Netlist generated:D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/top_tb_time_synth.v
+INFO: [USF-ModelSim-35] SDF generated:D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/top_tb_time_synth.sdf
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'C:/modeltech_pe_10.4c/vivado2014_lib/modelsim.ini' copied to run dir:'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing'
+INFO: [USF-ModelSim-40] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/dist_mem_gen_0.mif'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/mips_31_mars_simulate.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_1_addi.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_1_addiu.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_1_lui.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_add.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_addu.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_and.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_andi.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_lwsw.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_lwsw2.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_nor.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_or.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_ori.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_sll.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_sllv.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_slt.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_slti.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_sltiu.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_sltu.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_sra.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_srav.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_srl.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_srlv.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_sub.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_subu.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_xor.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_2_xori.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_3_beq.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_3_bne.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_4_j.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_4_jal.coe'
+INFO: [USF-ModelSim-25] Exported 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing/_4_jr.coe'
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing'
+Reading C:/modeltech_pe_10.4c/tcl/vsim/pref.tcl
+
+# 10.4c
+
+# do {top_tb_compile.do}
+# Model Technology ModelSim PE vmap 10.4c Lib Mapping Utility 2015.07 Jul 20 2015
+# vmap xil_defaultlib msim/xil_defaultlib 
+# Modifying modelsim.ini
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# 
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 14:17:41 on May 11,2023
+# vlog -64 -incr -work xil_defaultlib "+incdir+../../../../CPU.ip_user_files/ipstatic/test/CPU/CPU.srcs/sources_1/ip/clk_wiz_0/clk_wiz_v5_3_1" top_tb_time_synth.v ../../../../CPU.srcs/sim_1/new/top_tb.v 
+# -- Compiling module RAM32X1S_UNIQ_BASE_
+# -- Compiling module RAM32X1S_HD1
+# -- Compiling module RAM32X1S_HD10
+# -- Compiling module RAM32X1S_HD11
+# -- Compiling module RAM32X1S_HD12
+# -- Compiling module RAM32X1S_HD13
+# -- Compiling module RAM32X1S_HD14
+# -- Compiling module RAM32X1S_HD15
+# -- Compiling module RAM32X1S_HD16
+# -- Compiling module RAM32X1S_HD17
+# -- Compiling module RAM32X1S_HD18
+# -- Compiling module RAM32X1S_HD19
+# -- Compiling module RAM32X1S_HD2
+# -- Compiling module RAM32X1S_HD20
+# -- Compiling module RAM32X1S_HD21
+# -- Compiling module RAM32X1S_HD22
+# -- Compiling module RAM32X1S_HD23
+# -- Compiling module RAM32X1S_HD24
+# -- Compiling module RAM32X1S_HD25
+# -- Compiling module RAM32X1S_HD26
+# -- Compiling module RAM32X1S_HD27
+# -- Compiling module RAM32X1S_HD28
+# -- Compiling module RAM32X1S_HD29
+# -- Compiling module RAM32X1S_HD3
+# -- Compiling module RAM32X1S_HD30
+# -- Compiling module RAM32X1S_HD31
+# -- Compiling module RAM32X1S_HD4
+# -- Compiling module RAM32X1S_HD5
+# -- Compiling module RAM32X1S_HD6
+# -- Compiling module RAM32X1S_HD7
+# -- Compiling module RAM32X1S_HD8
+# -- Compiling module RAM32X1S_HD9
+# -- Compiling module dist_mem_gen_0
+# -- Compiling module ADD1
+# -- Compiling module ALU
+# -- Compiling module CPU
+# -- Compiling module Controller
+# -- Compiling module DMEM
+# -- Compiling module EXT
+# -- Compiling module IMEM
+# -- Compiling module MUX1__mod
+# -- Compiling module MUX2
+# -- Compiling module MUX3
+# -- Compiling module MUX4
+# -- Compiling module PC
+# -- Compiling module clk_change
+# -- Compiling module regfile
+# -- Compiling module sccomp_dataflow
+# -- Compiling module seg7x16
+# -- Compiling module top
+# -- Compiling module dist_mem_gen_0_dist_mem_gen_v8_0_10
+# -- Compiling module dist_mem_gen_0_dist_mem_gen_v8_0_10_synth
+# -- Compiling module dist_mem_gen_0_rom
+# -- Compiling module glbl
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	glbl
+# 	top_tb
+# End time: 14:17:41 on May 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:56 . Memory (MB): peak = 1690.590 ; gain = 0.000
+INFO: [USF-ModelSim-69] 'compile' step finished in '56' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.sim/sim_1/synth/timing'
+Program launched (PID=19064)
+launch_simulation: Time (s): cpu = 00:00:51 ; elapsed = 00:01:31 . Memory (MB): peak = 1690.590 ; gain = 697.387
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1702.383 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 11 15:07:23 2023...

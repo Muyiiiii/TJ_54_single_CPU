@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sat May 13 17:48:38 2023
+# Process ID: 14524
+# Current directory: D:/2 VIVADO/1 Comuter composition/CPU/test/CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32720 D:\2 VIVADO\1 Comuter composition\CPU\test\CPU\CPU.xpr
+# Log file: D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/vivado.log
+# Journal file: D:/2 VIVADO/1 Comuter composition/CPU/test/CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.xpr}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top testbench [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation -install_path C:/modeltech_pe_10.4c/win32pe -mode post-synthesis -type timing
+launch_simulation -install_path C:/modeltech_pe_10.4c/win32pe -mode post-synthesis -type timing
+launch_simulation -install_path C:/modeltech_pe_10.4c/win32pe -mode post-synthesis -type timing
+launch_simulation -install_path C:/modeltech_pe_10.4c/win32pe
+set_property target_simulator XSim [current_project]
+launch_simulation
+source testbench.tcl
+close_sim

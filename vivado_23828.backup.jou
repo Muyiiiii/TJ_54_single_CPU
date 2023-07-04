@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sun Jul 02 16:41:14 2023
+# Process ID: 23828
+# Current directory: C:/Users/YangJie/Desktop/doing/CPU/CPU/test/CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2292 C:\Users\YangJie\Desktop\doing\CPU\CPU\test\CPU\CPU.xpr
+# Log file: C:/Users/YangJie/Desktop/doing/CPU/CPU/test/CPU/vivado.log
+# Journal file: C:/Users/YangJie/Desktop/doing/CPU/CPU/test/CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/YangJie/Desktop/doing/CPU/CPU/test/CPU/CPU.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+set_property target_simulator ModelSim [current_project]
+launch_simulation -install_path C:/modeltech_pe_10.4c/win32pe -mode post-synthesis -type timing
+launch_simulation -install_path C:/modeltech_pe_10.4c/win32pe -mode post-synthesis -type timing
+launch_simulation -install_path C:/modeltech_pe_10.4c/win32pe -mode post-synthesis -type timing

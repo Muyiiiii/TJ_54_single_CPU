@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu May 11 13:41:55 2023
+# Process ID: 18140
+# Current directory: D:/2 VIVADO/1 Comuter composition/CPU/test/CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18756 D:\2 VIVADO\1 Comuter composition\CPU\test\CPU\CPU.xpr
+# Log file: D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/vivado.log
+# Journal file: D:/2 VIVADO/1 Comuter composition/CPU/test/CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/2 VIVADO/1 Comuter composition/CPU/test/CPU/CPU.xpr}
+update_compile_order -fileset sources_1
+aunch_simulation
+source top_tb.tcl
+set_property target_simulator ModelSim [current_project]
+launch_simulation -install_path C:/modeltech_pe_10.4c/win32pe -mode post-synthesis -type timing
+close_sim

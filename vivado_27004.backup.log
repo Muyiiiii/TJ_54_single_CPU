@@ -1,0 +1,1087 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sat May 06 13:38:27 2023
+# Process ID: 27004
+# Current directory: C:/Users/YangJie/Desktop/doing/CPU/test/CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27444 C:\Users\YangJie\Desktop\doing\CPU\test\CPU\CPU.xpr
+# Log file: C:/Users/YangJie/Desktop/doing/CPU/test/CPU/vivado.log
+# Journal file: C:/Users/YangJie/Desktop/doing/CPU/test/CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/ip/IMEM/IMEM.xci'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+update_compile_order -fileset sources_1
+remove_files C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/ip/IMEM/IMEM.xci
+file delete -force C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/ip/IMEM
+close [ open C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX1.v w ]
+add_files C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX1.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+remove_files C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/translator.v
+file delete -force C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/translator.v
+close [ open C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Controller.v w ]
+add_files C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Controller.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/EXT.v w ]
+add_files C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/EXT.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX2.v w ]
+add_files C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX2.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX3.v w ]
+add_files C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX3.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Connect.v w ]
+add_files C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Connect.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD1.v w ]
+add_files C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD1.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX4.v w ]
+add_files C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX4.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v w ]
+add_files C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/testbench.v w ]
+add_files C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/testbench.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/IMEM_IP.mif'
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/mips_31_mars_simulate.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0_10
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/ip/IMEM_IP/sim/IMEM_IP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM_IP
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+ERROR: [VRFC 10-91] pc_out is not declared [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/PC.v:34]
+ERROR: [VRFC 10-1040] module PC ignored due to previous errors [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/PC.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/IMEM_IP.mif'
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/mips_31_mars_simulate.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0_10
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/ip/IMEM_IP/sim/IMEM_IP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM_IP
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+ERROR: [VRFC 10-91] pc_out is not declared [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/PC.v:34]
+ERROR: [VRFC 10-1040] module PC ignored due to previous errors [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/PC.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/IMEM_IP.mif'
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/mips_31_mars_simulate.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0_10
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/ip/IMEM_IP/sim/IMEM_IP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM_IP
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/EXT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Connect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Connect
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD2
+INFO: [VRFC 10-2458] undeclared symbol add1_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2458] undeclared symbol add1_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:204]
+INFO: [VRFC 10-2458] undeclared symbol add2_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:211]
+INFO: [VRFC 10-2458] undeclared symbol ena_MUX, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:218]
+INFO: [VRFC 10-2458] undeclared symbol EXT_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:234]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/DMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/IMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+WARNING: [VRFC 10-1315] redeclaration of ansi port pc is not allowed [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:50]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto a4272b02fbb94013980e4cdd832b5fd9 --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_10 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-426] cannot find port spo on this module [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:43]
+WARNING: [VRFC 10-426] cannot find port pc_next on this module [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:51]
+WARNING: [VRFC 10-426] cannot find port ena_MUX on this module [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:142]
+ERROR: [VRFC 10-426] cannot find port spo on this module [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:45]
+ERROR: [VRFC 10-426] cannot find port pc_next on this module [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:60]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port pc_next [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:120]
+WARNING: [VRFC 10-278] actual bit length 33 differs from formal bit length 32 for port Rs [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:136]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port pc [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:194]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port add1_out [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:204]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port pc [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:210]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port add2_out [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:211]
+WARNING: [VRFC 10-278] actual bit length 33 differs from formal bit length 32 for port in3 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:222]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in4 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:223]
+WARNING: [VRFC 10-278] actual bit length 33 differs from formal bit length 32 for port in1 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:233]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in2 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:234]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in2 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:245]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in1 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:255]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in4 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:258]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/IMEM_IP.mif'
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/mips_31_mars_simulate.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0_10
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/ip/IMEM_IP/sim/IMEM_IP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM_IP
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/EXT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Connect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Connect
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD2
+INFO: [VRFC 10-2458] undeclared symbol add1_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2458] undeclared symbol add1_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:204]
+INFO: [VRFC 10-2458] undeclared symbol add2_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:211]
+INFO: [VRFC 10-2458] undeclared symbol ena_MUX, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:218]
+INFO: [VRFC 10-2458] undeclared symbol EXT_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:234]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/DMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/IMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto a4272b02fbb94013980e4cdd832b5fd9 --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_10 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-426] cannot find port spo on this module [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:43]
+WARNING: [VRFC 10-426] cannot find port pc_next on this module [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:50]
+WARNING: [VRFC 10-426] cannot find port ena_MUX on this module [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:142]
+ERROR: [VRFC 10-426] cannot find port spo on this module [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:45]
+ERROR: [VRFC 10-426] cannot find port pc_next on this module [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:59]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port pc_next [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:120]
+WARNING: [VRFC 10-278] actual bit length 33 differs from formal bit length 32 for port Rs [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:136]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port pc [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:194]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port add1_out [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:204]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port pc [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:210]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port add2_out [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:211]
+WARNING: [VRFC 10-278] actual bit length 33 differs from formal bit length 32 for port in3 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:222]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in4 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:223]
+WARNING: [VRFC 10-278] actual bit length 33 differs from formal bit length 32 for port in1 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:233]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in2 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:234]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in2 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:245]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in1 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:255]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in4 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:258]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/IMEM_IP.mif'
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/mips_31_mars_simulate.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0_10
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/ip/IMEM_IP/sim/IMEM_IP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM_IP
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/EXT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Connect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Connect
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD2
+INFO: [VRFC 10-2458] undeclared symbol add1_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2458] undeclared symbol add1_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:204]
+INFO: [VRFC 10-2458] undeclared symbol add2_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:211]
+INFO: [VRFC 10-2458] undeclared symbol ena_MUX, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:218]
+INFO: [VRFC 10-2458] undeclared symbol EXT_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:234]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/DMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/IMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto a4272b02fbb94013980e4cdd832b5fd9 --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_10 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-426] cannot find port spo on this module [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:43]
+WARNING: [VRFC 10-426] cannot find port pc_next on this module [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:50]
+WARNING: [VRFC 10-426] cannot find port ena_MUX on this module [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:142]
+ERROR: [VRFC 10-426] cannot find port spo on this module [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:45]
+ERROR: [VRFC 10-426] cannot find port pc_next on this module [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:59]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port pc_next [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:120]
+WARNING: [VRFC 10-278] actual bit length 33 differs from formal bit length 32 for port Rs [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:136]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port pc [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:194]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port add1_out [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:204]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port pc [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:210]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port add2_out [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:211]
+WARNING: [VRFC 10-278] actual bit length 33 differs from formal bit length 32 for port in3 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:222]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in4 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:223]
+WARNING: [VRFC 10-278] actual bit length 33 differs from formal bit length 32 for port in1 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:233]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in2 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:234]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in2 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:245]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in1 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:255]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in4 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:258]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/IMEM_IP.mif'
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/mips_31_mars_simulate.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0_10
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/ip/IMEM_IP/sim/IMEM_IP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM_IP
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/EXT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Connect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Connect
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD2
+INFO: [VRFC 10-2458] undeclared symbol add1_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2458] undeclared symbol add1_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:204]
+INFO: [VRFC 10-2458] undeclared symbol add2_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:211]
+INFO: [VRFC 10-2458] undeclared symbol ena_MUX, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:218]
+INFO: [VRFC 10-2458] undeclared symbol EXT_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:234]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/DMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/IMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto a4272b02fbb94013980e4cdd832b5fd9 --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_10 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-426] cannot find port spo on this module [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:43]
+WARNING: [VRFC 10-426] cannot find port pc_next on this module [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:50]
+WARNING: [VRFC 10-426] cannot find port ena_MUX on this module [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:142]
+ERROR: [VRFC 10-426] cannot find port spo on this module [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:45]
+ERROR: [VRFC 10-426] cannot find port pc_next on this module [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:59]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port add1_out [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:204]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port add2_out [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:211]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in4 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:223]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in2 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:234]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in2 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:245]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in1 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:255]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in4 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:258]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/IMEM_IP.mif'
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/mips_31_mars_simulate.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0_10
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/ip/IMEM_IP/sim/IMEM_IP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM_IP
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/EXT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Connect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Connect
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD2
+INFO: [VRFC 10-2458] undeclared symbol add1_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2458] undeclared symbol ena_MUX, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:221]
+INFO: [VRFC 10-2458] undeclared symbol EXT_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:237]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/DMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/IMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto a4272b02fbb94013980e4cdd832b5fd9 --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_10 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-426] cannot find port spo on this module [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:43]
+ERROR: [VRFC 10-426] cannot find port spo on this module [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:45]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in2 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:237]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in2 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:248]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port in1 [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:258]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/IMEM_IP.mif'
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/mips_31_mars_simulate.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0_10
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/ip/IMEM_IP/sim/IMEM_IP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM_IP
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/EXT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Connect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Connect
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD2
+INFO: [VRFC 10-2458] undeclared symbol add1_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2458] undeclared symbol ena_MUX, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:221]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/DMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/IMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+WARNING: [VRFC 10-1315] redeclaration of ansi port ins is not allowed [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:35]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto a4272b02fbb94013980e4cdd832b5fd9 --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_10 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-529] concurrent assignment to a non-net DM_rdata is not permitted [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:166]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/IMEM_IP.mif'
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/mips_31_mars_simulate.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0_10
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/ip/IMEM_IP/sim/IMEM_IP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM_IP
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/EXT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Connect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Connect
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD2
+INFO: [VRFC 10-2458] undeclared symbol add1_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2458] undeclared symbol ena_MUX, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:221]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/DMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/IMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+WARNING: [VRFC 10-1315] redeclaration of ansi port ins is not allowed [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:35]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto a4272b02fbb94013980e4cdd832b5fd9 --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_10 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module dist_mem_gen_v8_0_10.dist_mem_gen_v8_0_10(C_FAMILY="a...
+Compiling module xil_defaultlib.IMEM_IP
+Compiling module xil_defaultlib.IMEM
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.ALU_default
+Compiling module xil_defaultlib.EXT
+Compiling module xil_defaultlib.Connect
+Compiling module xil_defaultlib.ADD1
+Compiling module xil_defaultlib.ADD2
+Compiling module xil_defaultlib.MUX1
+Compiling module xil_defaultlib.MUX2
+Compiling module xil_defaultlib.MUX3
+Compiling module xil_defaultlib.MUX4
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.DMEM
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Built simulation snapshot testbench_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat May 06 21:44:07 2023...
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-4704] 'elaborate' step aborted
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/IMEM_IP.mif'
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/mips_31_mars_simulate.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0_10
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/ip/IMEM_IP/sim/IMEM_IP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM_IP
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/EXT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Connect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Connect
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD2
+INFO: [VRFC 10-2458] undeclared symbol add1_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2458] undeclared symbol ena_MUX, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:221]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/DMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/IMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+WARNING: [VRFC 10-1315] redeclaration of ansi port ins is not allowed [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:35]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto a4272b02fbb94013980e4cdd832b5fd9 --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_10 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module dist_mem_gen_v8_0_10.dist_mem_gen_v8_0_10(C_FAMILY="a...
+Compiling module xil_defaultlib.IMEM_IP
+Compiling module xil_defaultlib.IMEM
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.ALU_default
+Compiling module xil_defaultlib.EXT
+Compiling module xil_defaultlib.Connect
+Compiling module xil_defaultlib.ADD1
+Compiling module xil_defaultlib.ADD2
+Compiling module xil_defaultlib.MUX1
+Compiling module xil_defaultlib.MUX2
+Compiling module xil_defaultlib.MUX3
+Compiling module xil_defaultlib.MUX4
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.DMEM
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat May 06 21:44:13 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in testbench.sc.IMEM_inst.IMEM_IP_inst.inst at time               100000 ns: 
+Reading from out-of-range address. Max address in testbench.sc.IMEM_inst.IMEM_IP_inst.inst is        2047
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property -dict [list CONFIG.coefficient_file {C:/Users/YangJie/Desktop/doing/CPU/test_ins/add.coe}] [get_ips IMEM_IP]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/YangJie/Desktop/doing/CPU/test_ins/add.coe' provided. It will be converted relative to IP Instance files '../../../../../../test_ins/add.coe'
+generate_target all [get_files  C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/ip/IMEM_IP/IMEM_IP.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'IMEM_IP'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'IMEM_IP'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'IMEM_IP'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'IMEM_IP'...
+export_ip_user_files -of_objects [get_files C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/ip/IMEM_IP/IMEM_IP.xci] -no_script -force -quiet
+reset_run IMEM_IP_synth_1
+launch_run -jobs 8 IMEM_IP_synth_1
+[Sat May 06 21:59:03 2023] Launched IMEM_IP_synth_1...
+Run output will be captured here: C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.runs/IMEM_IP_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/ip/IMEM_IP/IMEM_IP.xci] -directory C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.ip_user_files -ipstatic_source_dir C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.ip_user_files/ipstatic -force -quiet
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/IMEM_IP.mif'
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/add.coe'
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/mips_31_mars_simulate.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0_10
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/ip/IMEM_IP/sim/IMEM_IP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM_IP
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/EXT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Connect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Connect
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD2
+INFO: [VRFC 10-2458] undeclared symbol add1_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2458] undeclared symbol ena_MUX, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:221]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/DMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/IMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+WARNING: [VRFC 10-1315] redeclaration of ansi port ins is not allowed [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:35]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto a4272b02fbb94013980e4cdd832b5fd9 --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_10 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module dist_mem_gen_v8_0_10.dist_mem_gen_v8_0_10(C_FAMILY="a...
+Compiling module xil_defaultlib.IMEM_IP
+Compiling module xil_defaultlib.IMEM
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.ALU_default
+Compiling module xil_defaultlib.EXT
+Compiling module xil_defaultlib.Connect
+Compiling module xil_defaultlib.ADD1
+Compiling module xil_defaultlib.ADD2
+Compiling module xil_defaultlib.MUX1
+Compiling module xil_defaultlib.MUX2
+Compiling module xil_defaultlib.MUX3
+Compiling module xil_defaultlib.MUX4
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.DMEM
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat May 06 21:59:39 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in testbench.sc.IMEM_inst.IMEM_IP_inst.inst at time               100000 ns: 
+Reading from out-of-range address. Max address in testbench.sc.IMEM_inst.IMEM_IP_inst.inst is        2047
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/IMEM_IP.mif'
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/add.coe'
+INFO: [USF-XSim-25] Exported 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/mips_31_mars_simulate.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0_10
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/ip/IMEM_IP/sim/IMEM_IP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM_IP
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/MUX1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/EXT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/Connect.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Connect
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD2
+INFO: [VRFC 10-2458] undeclared symbol add1_out, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD2.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/ADD1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2458] undeclared symbol ena_MUX, assumed default net type wire [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/cpu.v:221]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/DMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/IMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+WARNING: [VRFC 10-1315] redeclaration of ansi port ins is not allowed [C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/sccomp_dataflow.v:35]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.srcs/sources_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto a4272b02fbb94013980e4cdd832b5fd9 --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_10 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module dist_mem_gen_v8_0_10.dist_mem_gen_v8_0_10(C_FAMILY="a...
+Compiling module xil_defaultlib.IMEM_IP
+Compiling module xil_defaultlib.IMEM
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.ALU_default
+Compiling module xil_defaultlib.EXT
+Compiling module xil_defaultlib.Connect
+Compiling module xil_defaultlib.ADD1
+Compiling module xil_defaultlib.ADD2
+Compiling module xil_defaultlib.MUX1
+Compiling module xil_defaultlib.MUX2
+Compiling module xil_defaultlib.MUX3
+Compiling module xil_defaultlib.MUX4
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.DMEM
+Compiling module xil_defaultlib.sccomp_dataflow
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat May 06 22:02:27 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/YangJie/Desktop/doing/CPU/test/CPU/CPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in testbench.sc.IMEM_inst.IMEM_IP_inst.inst at time               100000 ns: 
+Reading from out-of-range address. Max address in testbench.sc.IMEM_inst.IMEM_IP_inst.inst is        2047
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat May 06 22:21:57 2023...

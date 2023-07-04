@@ -1,0 +1,105 @@
+# do {testbench_simulate.do}
+# vsim -voptargs=""+acc"" "+transport_int_delays" "+pulse_r/0" "+pulse_int_r/0" -L simprims_ver -L secureip -L xil_defaultlib -lib xil_defaultlib xil_defaultlib.testbench xil_defaultlib.glbl 
+# Start time: 16:44:56 on Jul 02,2023
+# //  ModelSim PE 10.4c Jul 20 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading xil_defaultlib.testbench
+# Loading xil_defaultlib.sccomp_dataflow
+# Loading xil_defaultlib.IMEM
+# Loading xil_defaultlib.dist_mem_gen_0
+# Loading xil_defaultlib.dist_mem_gen_0_dist_mem_gen_v8_0_10
+# Loading simprims_ver.GND
+# Loading simprims_ver.LUT6
+# Loading simprims_ver.LUT5
+# Loading simprims_ver.LUT2
+# Loading simprims_ver.LUT3
+# Loading simprims_ver.LUT4
+# Loading simprims_ver.MUXF7
+# Loading simprims_ver.MUXF8
+# Loading xil_defaultlib.CPU
+# Loading xil_defaultlib.PC
+# Loading xil_defaultlib.regfile
+# Loading xil_defaultlib.Controller
+# Loading xil_defaultlib.ALU
+# Loading xil_defaultlib.EXT
+# Loading xil_defaultlib.Connect
+# Loading xil_defaultlib.ADD1
+# Loading xil_defaultlib.ADD2
+# Loading xil_defaultlib.MUX1
+# Loading xil_defaultlib.MUX2
+# Loading xil_defaultlib.MUX3
+# Loading xil_defaultlib.MUX4
+# Loading xil_defaultlib.CP0
+# Loading xil_defaultlib.HI_or_LO
+# Loading xil_defaultlib.MUX5
+# Loading xil_defaultlib.MUX6
+# Loading xil_defaultlib.MUL
+# Loading xil_defaultlib.DIV
+# Loading xil_defaultlib.DMEM
+# Loading xil_defaultlib.glbl
+# ** Warning: (vsim-3015) ../../../../CPU.srcs/sources_1/new/sccomp_dataflow.v(46): [PCDPC] - Port size (11) does not match connection size (32) for port 'addr'. The port definition is at: ../../../../CPU.srcs/sources_1/new/IMEM.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/sc/IMEM_inst File: ../../../../CPU.srcs/sources_1/new/IMEM.v
+# Loading simprims_ver.x_lut2_mux4
+# Loading simprims_ver.x_lut3_mux4
+# ** Warning: (vsim-3015) ../../../../CPU.srcs/sources_1/new/cpu.v(334): [PCDPC] - Port size (32) does not match connection size (1) for port 'status'. The port definition is at: ../../../../CPU.srcs/sources_1/new/CP0.v(35).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/sc/sccpu/CP0_inst File: ../../../../CPU.srcs/sources_1/new/CP0.v
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+run -continue
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -continue
+run -continue
+run -all
+# ** Fatal: (SIGFPE) Floating point exception.
+#    Time: 19100 ns  Iteration: 9  Process: /testbench/sc/sccpu/DIV_inst/#ASSIGN#44 File: ../../../../CPU.srcs/sources_1/new/DIV.v
+# Fatal error in Module DIV at ../../../../CPU.srcs/sources_1/new/DIV.v line 44
+# 
+# HDL call sequence:
+# Stopped at ../../../../CPU.srcs/sources_1/new/DIV.v 44 Module DIV
+# 
+# Break key hit
+# End time: 16:46:26 on Jul 02,2023, Elapsed time: 0:01:30
+# Errors: 2, Warnings: 2
